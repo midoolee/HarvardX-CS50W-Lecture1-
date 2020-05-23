@@ -1,0 +1,38 @@
+table {
+  margin: 20px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 30%;
+}
+
+table th, table td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+table th {
+  background-color: lightgray;
+}
+
+table td {
+  font-style: italic;
+  background-color: lightgray;
+}
+
+.video1_link, .video2_link, .video3_link {
+  border: 2px solid white;
+}
+
+.video1_link {
+  background-color: white;
+}
+
+.video2_link {
+  background-color: whitesmoke;
+}
+
+.video3_link {
+  background-color: wheat;
+}
+/*# sourceMappingURL=page3style.css.map */

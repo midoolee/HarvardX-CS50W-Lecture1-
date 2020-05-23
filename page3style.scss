@@ -1,0 +1,43 @@
+// variable
+$color:lightgray;
+// nesting
+table {
+    margin: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 30%;
+    
+    th, td  {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+            }
+    th {
+    background-color: $color;
+       }
+    td {
+        font-style: italic;
+        background-color: $color;
+    }
+}
+//  Inheritance
+%frame {
+    border: 2px solid white;
+}
+
+.video1_link{
+    @extend %frame;
+    background-color: white;
+}
+
+.video2_link{
+    @extend %frame;
+    background-color: whitesmoke;
+
+}
+
+.video3_link{
+    @extend %frame;
+    background-color: wheat;
+
+}

@@ -1,0 +1,59 @@
+body{
+    display: flexbox;
+    flex-wrap: wrap;
+    background-image: url(https://fcwallpaper.com/wp-content/uploads/2019/03/Manchester-City-For-Desktop-Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+@media (min-width: 800px) {
+    .Homepage-text::before {
+            content: "Manchester City F.C.";
+        }
+}
+            @media (max-width: 799px) {
+    .Homepage-text::before {
+            content: "MCFC";
+        }
+}
+
+.Homepage-text {
+    color: rgb(15, 108, 196);
+    text-align: center;
+    font-size: 50px;
+}
+
+#web-content{
+    font: 1em sans-serif;
+    margin: 20px;
+    color:blue;
+    /* border: 2px solid white; */
+    width: 30%;
+    background-color: lightgray;
+}
+
+.Photos-Icon{
+    margin: 20px;
+    border: 2px solid black;
+    width: 20%;
+    object-fit: contain;
+    position: absolute;
+    top: 57%;
+    left: 38%;
+
+}
+
+.Photos-Icon  img{
+    max-width: 100%;
+}
+
+.Photos-Icon:hover {
+    border: 2px solid yellow;
+}
+
+.videos-content{
+    margin: 20px;
+    color: thistle;
+}
